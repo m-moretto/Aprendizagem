@@ -12,4 +12,8 @@ Console.WriteLine("The temperature is " + celsius + " Celsius.");
 var kelvin = conversaoTemparatura.FahrenheitParaKelvin(fahrenheit);
 Console.WriteLine("The temperature is " + kelvin + " Kelvin.");
 
-Console.WriteLine("The temperature is " + kelvin + " Kelvin.");
+Console.WriteLine("Coloque numero de dados: ");
+int numeroDeDados = Console.Read();
+
+var jogoDeDados = new JogoDeDados();
+Console.WriteLine();
