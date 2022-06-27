@@ -39,13 +39,17 @@ Console.WriteLine();
 //Teste da classe JogoDeDados  ###Pendente###
 Console.WriteLine("Teste da classe JogoDeDados.................................................");
 
+var jogoDeDados = new JogoDeDados();
+
 Console.WriteLine("Qual o número de dados será arremessado? ");
 int numeroDeDados = Console.Read();
 
-var jogoDeDados = new JogoDeDados();
+Console.WriteLine($"Foram arremessados {numeroDeDados} dados e a soma dos resultados foi " + jogoDeDados.ArremessarDados(numeroDeDados) + ".");
 
-Console.WriteLine($"Foram arremessados " + numeroDeDados + " dados e a soma dos resultados foi " + jogoDeDados.ArremessarDados(numeroDeDados) + ".");
+int[] resultadoDeCadaArremesso = new int[numeroDeDados];
+resultadoDeCadaArremesso[numeroDeDados] = int[] jogoDeDados.ResultadoDeCadaArremesso(numeroDeDados);
 */
+
 
 /*
 //Teste da classe AvisoRenovacaoAssinatura  ###Pendente###

@@ -13,6 +13,7 @@ namespace Aprendizagem.ExerciciosLogica
             Random dado = new Random();
             return dado.Next(1, 7);
         }
+
         public int ArremessarDados(int numeroDeDados)
         {
             var somaDosDados = 0;
@@ -23,13 +24,15 @@ namespace Aprendizagem.ExerciciosLogica
             }
             return somaDosDados;
         }
+
         public int[] ResultadoDeCadaArremesso(int numeroDeDados)
         {
             int[] resultadoDeCadaArremesso = new int[numeroDeDados];
-            for (int i = 0; i < numeroDeDados; i++)
+
+            foreach (int i in resultadoDeCadaArremesso) 
             {
-                resultadoDeCadaArremesso[i] = ArremessarDado();
-            }
+                resultadoDeCadaArremesso[i] = ArremessarDados(numeroDeDados);
+             }
             return resultadoDeCadaArremesso;
         }
     }
