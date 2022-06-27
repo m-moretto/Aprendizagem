@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Aprendizagem.ExerciciosLogica
 {
     public class JogoDeDados
-    {
+    {    
         public int ArremessarDado()
         {
             Random dado = new Random();
@@ -16,11 +16,21 @@ namespace Aprendizagem.ExerciciosLogica
         public int ArremessarDados(int numeroDeDados)
         {
             var somaDosDados = 0;
+
             for (int i = 0; i < numeroDeDados; i++)
             {
                 somaDosDados =+ ArremessarDado();
             }
             return somaDosDados;
+        }
+        public int[] ResultadoDeCadaArremesso(int numeroDeDados)
+        {
+            int[] resultadoDeCadaArremesso = new int[numeroDeDados];
+            for (int i = 0; i < numeroDeDados; i++)
+            {
+                resultadoDeCadaArremesso[i] = ArremessarDado();
+            }
+            return resultadoDeCadaArremesso;
         }
     }
 }

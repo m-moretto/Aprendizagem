@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6aad5181-7e89-4e89-ac05-07a572b43085": {
+      "ProjectGuid": "6aad5181-7e89-4e89-ac05-07a572b43085",
+      "DisplayName": "Aprendizagem.ExerciciosLogica",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

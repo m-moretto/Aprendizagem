@@ -8,16 +8,18 @@ namespace Aprendizagem.ExerciciosLogica
 {
     public class ConversaoTemperatura
     {
-        public decimal FahrenheitParaCelsius(int fahrenheit)
+        public decimal FahrenheitParaCelsius(decimal fahrenheit)
         {
             decimal celsius = (fahrenheit - 32) * (5m / 9);
             
             return celsius;
         }
 
-        public decimal FahrenheitParaKelvin(int fahrenheit)
+        public decimal FahrenheitParaKelvin(decimal fahrenheit)
         {
-            return (fahrenheit - 10);
+            decimal kelvin = 273.15m + FahrenheitParaCelsius(fahrenheit);
+
+            return kelvin;
         }
     }
 }
