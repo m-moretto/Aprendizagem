@@ -32,7 +32,7 @@ namespace Aprendizagem.ExerciciosLogica
             foreach (int i in resultadoDeCadaArremesso) 
             {
                 resultadoDeCadaArremesso[i] = ArremessarDados(numeroDeDados);
-             }
+            }
             return resultadoDeCadaArremesso;
         }
     }

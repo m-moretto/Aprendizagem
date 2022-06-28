@@ -1,23 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Aprendizagem.ExerciciosLogica;
 
-/*
+
 //Teste da classe Interpolação_desafioMSLearn  ###Pendente###
 Console.WriteLine("Teste da classe Interpolação_desafioMSLearn.................................");
 
 var interpolacao = new Interpolacao_desafioMSLearn();
 
 Console.WriteLine($@"View English output:
-        c:\Exercise\{interpolacao.NomeDoProjetoEmIngles()}\data.txt
+        c:\Exercise\{interpolacao.ObterNomeDoProjetoEmIngles()}\data.txt
         ");
 
-Console.WriteLine($@"{interpolacao.NomeDoProjetoEmRusso()}
-        c:\Exercise\{interpolacao.NomeDoProjetoEmIngles()}\ru-RU\data.txt");
+Console.WriteLine($@"{interpolacao.ObterNomeDoProjetoEmRusso()}
+        c:\Exercise\{interpolacao.ObterNomeDoProjetoEmIngles()}\ru-RU\data.txt");
 
-Cosole.WriteLine();
-*/
+Console.WriteLine();
 
 
+/*
 //Teste da classe ConversaoTemperatura ###OK###
 Console.WriteLine("Teste da classe ConversaoTemperatura........................................");
 
@@ -33,23 +33,27 @@ var kelvin = conversaoTemperatura.FahrenheitParaKelvin(fahrenheit);
 Console.WriteLine($@"A temperatura é " + string.Format("{0:0.00}", kelvin) + " Kelvin.");
 
 Console.WriteLine();
-
+*/
 
 /*
-//Teste da classe JogoDeDados  ###Pendente###
+//Teste da classe JogoDeDados  ###OK###
 Console.WriteLine("Teste da classe JogoDeDados.................................................");
 
 var jogoDeDados = new JogoDeDados();
 
 Console.WriteLine("Qual o número de dados será arremessado? ");
-int numeroDeDados = Console.Read();
+int numeroDeDados = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"Foram arremessados {numeroDeDados} dados e a soma dos resultados foi " + jogoDeDados.ArremessarDados(numeroDeDados) + ".");
 
 int[] resultadoDeCadaArremesso = new int[numeroDeDados];
-resultadoDeCadaArremesso[numeroDeDados] = int[] jogoDeDados.ResultadoDeCadaArremesso(numeroDeDados);
-*/
+resultadoDeCadaArremesso = jogoDeDados.ResultadoDeCadaArremesso(numeroDeDados);
 
+for (int i = 0; i < numeroDeDados; i++)
+{
+    Console.WriteLine($"O dado {i+1} retornou o valor {resultadoDeCadaArremesso[i]}");
+}
+*/
 
 /*
 //Teste da classe AvisoRenovacaoAssinatura  ###Pendente###

@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "p7GDc1oGrYXETE0leL9gxhmiXaibMh2JnJpTLOPq49D/dk48oesYYIB7oeWhV5OKnHKJnjMsa0OYxVLrueOhzg==",
+  "dgSpecHash": "drrcNtxby2jxIKWGlxxny334rmIylpkHLJQk/Ze2HgkZO1/YxlTj+lknheiDbbawDHL7ud9Wdke+nSHW7jCVKA==",
   "success": true,
   "projectFilePath": "C:\\projetos\\Apredizagem\\Aprendizagem\\Aprendizagem.ExerciciosLogica\\Aprendizagem.ExerciciosLogica.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }
