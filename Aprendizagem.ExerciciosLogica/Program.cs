@@ -1,8 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Aprendizagem.ExerciciosLogica;
+using System.Globalization;
+using System.Text;
 
 
-//Teste da classe Interpolação_desafioMSLearn  ###Pendente###
+//Teste da classe Interpolação_desafioMSLearn  ###OK###
 Console.WriteLine("Teste da classe Interpolação_desafioMSLearn.................................");
 
 var interpolacao = new Interpolacao_desafioMSLearn();
@@ -10,6 +12,9 @@ var interpolacao = new Interpolacao_desafioMSLearn();
 Console.WriteLine($@"View English output:
         c:\Exercise\{interpolacao.ObterNomeDoProjetoEmIngles()}\data.txt
         ");
+
+//Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
+Console.OutputEncoding = Encoding.UTF8;
 
 Console.WriteLine($@"{interpolacao.ObterNomeDoProjetoEmRusso()}
         c:\Exercise\{interpolacao.ObterNomeDoProjetoEmIngles()}\ru-RU\data.txt");
@@ -56,7 +61,7 @@ for (int i = 0; i < numeroDeDados; i++)
 */
 
 /*
-//Teste da classe AvisoRenovacaoAssinatura  ###Pendente###
+//Teste da classe AvisoRenovacaoAssinatura  ###Pendente###TODO
 Console.WriteLine("Teste da classe AvisoRenovacaoAssinatura....................................");
 Random random = new Random();
 int daysUntilExpiration = random.Next(12);

@@ -8,7 +8,7 @@ namespace Aprendizagem.ExerciciosLogica
 {
     internal class AvisoRenovacaoAssinatura
     {
-        /*
+        /*TODO
     if(daysUntilExpiration == 0)
         {
         Console.WriteLine("Your subscription has expired.");
