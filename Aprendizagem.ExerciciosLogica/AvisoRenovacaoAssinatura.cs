@@ -36,6 +36,20 @@ namespace Aprendizagem.ExerciciosLogica
 
 
         */
+
+
+
+
+       
+       /* 
+        Random value = new Random();
+        int saleAmount = value.Next(950,1050);
+
+        int discount = saleAmount > 1000 ? 100 : 50;
+
+        Console.WriteLine($"Valor venda: {saleAmount}");
+        Console.WriteLine($"Discount: {discount}");
+        */
     }
-        
+
 }

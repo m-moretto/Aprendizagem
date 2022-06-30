@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//A classe foi desenvolvida para testar e experimentar o uso do método Random().
+//Os métodos simula o lançamento de um ou mais dados e retorna seus resultados e a soma deles.
+
 namespace Aprendizagem.ExerciciosLogica
 {
     public class JogoDeDados

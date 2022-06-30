@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Esta classe foi desenvolvida para experimentar o uso de interpolação.
+//O método retorna um texto em Inglês e outro em Russo usando Unicode.
 
 namespace Aprendizagem.ExerciciosLogica
 {

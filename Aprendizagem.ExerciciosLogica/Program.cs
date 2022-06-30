@@ -3,7 +3,7 @@ using Aprendizagem.ExerciciosLogica;
 using System.Globalization;
 using System.Text;
 
-
+/*
 //Teste da classe Interpolação_desafioMSLearn  ###OK###
 Console.WriteLine("Teste da classe Interpolação_desafioMSLearn.................................");
 
@@ -20,7 +20,7 @@ Console.WriteLine($@"{interpolacao.ObterNomeDoProjetoEmRusso()}
         c:\Exercise\{interpolacao.ObterNomeDoProjetoEmIngles()}\ru-RU\data.txt");
 
 Console.WriteLine();
-
+*/
 
 /*
 //Teste da classe ConversaoTemperatura ###OK###
@@ -68,3 +68,42 @@ int daysUntilExpiration = random.Next(12);
 int discountPercentage = 0;
 var avisoRenovacaoAssinatura = new AvisoRenovacaoAssinatura(daysUntilExpiration);
 */
+
+/*
+//Teste da classe CaraOuCoroa  ###OK###
+Console.WriteLine("Aperte ENTER para arremessar a moeda:");
+
+while (Console.ReadKey().Key != ConsoleKey.Enter)
+{
+    Console.WriteLine("->tecla errada:  Tem que apertar ENTER!!");
+    continue;
+}
+if (Console.ReadKey().Key == ConsoleKey.Enter)
+{
+    CaraOuCoroa caraOuCoroa = new CaraOuCoroa();
+    Console.WriteLine(caraOuCoroa.Resultado());
+}
+*/
+
+
+//Teste da classe VerificacaoDeAcesso  ###TODO###
+int nivelDeAcesso = 0;
+int codigoDeAcesso = 0;
+while (nivelDeAcesso !=1 || nivelDeAcesso!=2 || nivelDeAcesso !=3 || nivelDeAcesso !=4 || nivelDeAcesso !=5)
+{
+    Console.WriteLine(@"Selecione seu nível de acesso:
+                    1-Usuário
+                    2-Coordenador
+                    3-Gerente
+                    4-Administrador do sistema
+                    5-Super usuário");
+}
+nivelDeAcesso = Console.Read();
+//metodo de verificação de nivel na classe VerificacaoDeAcesso
+
+Console.WriteLine(@"Entre com seu código de acesso:
+[Obs: seu código de acesso deve conter 3 números, exemplo: 001, 123 ou 100");
+codigoDeAcesso = Console.Read();
+//metodo de verificação de código de acesso na classe VerificacaoDeAcesso
+
+//retorno com menssagem de liberação ou não de acesso

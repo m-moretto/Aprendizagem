@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Esta classe contém dois métodos de conversão de temperatura.
+//Um converte de fahrenheit para celsius e outro de fahrenheit para kelvin
+
 namespace Aprendizagem.ExerciciosLogica
 {
     public class ConversaoTemperatura
