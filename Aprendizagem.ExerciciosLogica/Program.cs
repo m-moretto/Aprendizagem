@@ -60,6 +60,7 @@ for (int i = 0; i < numeroDeDados; i++)
 }
 */
 
+
 /*
 //Teste da classe AvisoRenovacaoAssinatura  ###Pendente###TODO
 Console.WriteLine("Teste da classe AvisoRenovacaoAssinatura....................................");
@@ -68,6 +69,7 @@ int daysUntilExpiration = random.Next(12);
 int discountPercentage = 0;
 var avisoRenovacaoAssinatura = new AvisoRenovacaoAssinatura(daysUntilExpiration);
 */
+
 
 /*
 //Teste da classe CaraOuCoroa  ###OK###
@@ -86,6 +88,7 @@ if (Console.ReadKey().Key == ConsoleKey.Enter)
 */
 
 
+/*
 //Teste da classe VerificacaoDeAcesso  ###TODO###
 int nivelDeAcesso = 0;
 int codigoDeAcesso = 0;
@@ -107,3 +110,32 @@ codigoDeAcesso = Console.Read();
 //metodo de verificação de código de acesso na classe VerificacaoDeAcesso
 
 //retorno com menssagem de liberação ou não de acesso
+*/
+
+
+/*
+//Teste da classe ConversaoSkuDescricaoProduto  ###OK###
+Console.WriteLine("Teste da classe ConversaoSkuDescricaoProduto................................");
+
+string sku = "3-MN-g";
+
+var conversaoSkuDescricaoProduto = new ConversaoSkuDescricaoProduto();
+
+string descriçãoDoProduto = conversaoSkuDescricaoProduto.DescreverProduto(sku);
+
+Console.WriteLine(descriçãoDoProduto);
+*/
+
+/*
+//Teste da classe ConversaoSkuDescricaoProduto  ###OK###
+Console.WriteLine("Teste da classe CorrespondeciaNivelCargo.................................");
+
+int nivelDoFuncionario = 200;
+string nomeDoFuncionario = "John Smith";
+
+var correspondeciaNivelCargo = new CorrespondenciaNivelCargo();
+
+var descricaoDeCargo = correspondeciaNivelCargo.ObterNivel(nivelDoFuncionario);
+
+Console.WriteLine($"Descrição de cargo: {nomeDoFuncionario}, {descricaoDeCargo}");
+*/
