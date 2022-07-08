@@ -2,25 +2,7 @@
 using Aprendizagem.ExerciciosLogica;
 using System.Globalization;
 using System.Text;
-
-/*
-//Teste da classe Interpolação_desafioMSLearn  ###OK###
-Console.WriteLine("Teste da classe Interpolação_desafioMSLearn.................................");
-
-var interpolacao = new Interpolacao_desafioMSLearn();
-
-Console.WriteLine($@"View English output:
-        c:\Exercise\{interpolacao.ObterNomeDoProjetoEmIngles()}\data.txt
-        ");
-
-//Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
-Console.OutputEncoding = Encoding.UTF8;
-
-Console.WriteLine($@"{interpolacao.ObterNomeDoProjetoEmRusso()}
-        c:\Exercise\{interpolacao.ObterNomeDoProjetoEmIngles()}\ru-RU\data.txt");
-
-Console.WriteLine();
-*/
+using Aprendizagem.ExerciciosLogica.Enums;
 
 /*
 //Teste da classe ConversaoTemperatura ###OK###
@@ -139,3 +121,34 @@ var descricaoDeCargo = correspondeciaNivelCargo.ObterNivel(nivelDoFuncionario);
 
 Console.WriteLine($"Descrição de cargo: {nomeDoFuncionario}, {descricaoDeCargo}");
 */
+
+
+//Teste da classe NomeProjetoVariasLinguagens  ###OK###
+Console.WriteLine("Teste da classe NomeProjetoVariasLinguagens.................................");
+Console.WriteLine();
+
+var nomeProjeto = new NomeProjetoVariasLinguagens();
+
+Console.WriteLine($@"View English output:
+        c:\Exercise\{nomeProjeto.ProjetoIngles()}\data.txt
+        ");
+
+//Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
+Console.OutputEncoding = Encoding.UTF8;
+
+Console.WriteLine($@"{nomeProjeto.ProjetoRusso()}
+        c:\Exercise\{nomeProjeto.ProjetoIngles()}\ru-RU\data.txt
+        ");
+
+Console.WriteLine($@"{nomeProjeto.ProjetoUE(Aprendizagem.ExerciciosLogica.Enums.Linguagem.Frances)}
+        c:\Exercise\{nomeProjeto.ProjetoIngles()}\fr-FR\data.txt
+        ");
+
+Console.WriteLine($@"{nomeProjeto.ProjetoUE(Linguagem.Italiano)}
+        c:\Exercise\{nomeProjeto.ProjetoIngles()}\it-IT\data.txt
+        ");
+
+Console.WriteLine($@"{nomeProjeto.ProjetoUE(Linguagem.Espanhol)}
+        c:\Exercise\{nomeProjeto.ProjetoIngles()}\es-ES\data.txt
+        ");
+

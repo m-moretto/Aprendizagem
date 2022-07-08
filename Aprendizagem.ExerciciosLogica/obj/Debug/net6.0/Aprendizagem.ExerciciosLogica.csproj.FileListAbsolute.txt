@@ -2,7 +2,6 @@ C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\bin\Debug\net
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\bin\Debug\net6.0\Aprendizagem.ExerciciosLogica.deps.json
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\bin\Debug\net6.0\Aprendizagem.ExerciciosLogica.runtimeconfig.json
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\bin\Debug\net6.0\Aprendizagem.ExerciciosLogica.dll
-C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\bin\Debug\net6.0\ref\Aprendizagem.ExerciciosLogica.dll
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\bin\Debug\net6.0\Aprendizagem.ExerciciosLogica.pdb
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.csproj.AssemblyReference.cache
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\ref\Aprendizagem.ExerciciosLogica.dll
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.pdb
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.genruntimeconfig.cache
+C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\refint\Aprendizagem.ExerciciosLogica.dll
