@@ -22,34 +22,50 @@ namespace Aprendizagem.ExerciciosLogica
 
             string[] produto = skuUpper.Split('-');
 
-            string tipo = "";
-            string cor = "";
-            string tamanho = "";
+            var tipoProduto = new ConversaoSkuDescricaoProduto.TipoProduto();
+            var corProduto = new ConversaoSkuDescricaoProduto();
+            var tamanhoProduto = new ConversaoSkuDescricaoProduto();
 
-            switch (produto[0])
+            return ($"Produto: {tipoProduto.Tipo(produto)} {corProduto.CorProduto(produto)} {tamanhoProduto.TamanhoProduto(produto)}");
+        }
+
+        private class TipoProduto
+        {
+            public string Tipo(string[] produto)
             {
-                case "01":
-                    tipo = "Suéter";
-                    break;
-                case "1":
-                    tipo = "Suéter";
-                    break;
-                case "02":
-                    tipo = "Camiseta";
-                    break;
-                case "2":
-                    tipo = "Camiseta";
-                    break;
-                case "03":
-                    tipo = "Calça de moletom";
-                    break;
-                case "3":
-                    tipo = "Calça de moletom";
-                    break;
-                default:
-                    tipo = "outro";
-                    break;
+                var tipo = "";
+
+                switch (produto[0])
+                {
+                    case "01":
+                        tipo = "Suéter";
+                        break;
+                    case "1":
+                        tipo = "Suéter";
+                        break;
+                    case "02":
+                        tipo = "Camiseta";
+                        break;
+                    case "2":
+                        tipo = "Camiseta";
+                        break;
+                    case "03":
+                        tipo = "Calça de moletom";
+                        break;
+                    case "3":
+                        tipo = "Calça de moletom";
+                        break;
+                    default:
+                        tipo = "outro";
+                        break;
+                }
+                return tipo;
             }
+        }
+
+        private string CorProduto(string[] produto)
+        {
+            var cor = "";
 
             switch (produto[1])
             {
@@ -67,6 +83,13 @@ namespace Aprendizagem.ExerciciosLogica
                     break;
             }
 
+            return cor;
+        }
+
+        internal string TamanhoProduto(string[] produto)
+        {
+            var tamanho = "";
+
             switch (produto[2])
             {
                 case "P":
@@ -83,10 +106,13 @@ namespace Aprendizagem.ExerciciosLogica
                     break;
             }
 
-            return ($"Produto: {tipo} {cor} {tamanho}");
+            return tamanho;
         }
+
+
     }
 }
+
 
 /* Código original em "if-elseif-else"
 

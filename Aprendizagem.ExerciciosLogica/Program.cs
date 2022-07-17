@@ -71,7 +71,7 @@ if (Console.ReadKey().Key == ConsoleKey.Enter)
 
 
 /*
-//Teste da classe VerificacaoDeAcesso  ###TODO###
+//Teste da classe VerificacaoDeAcesso  ###Pendente###
 int nivelDeAcesso = 0;
 int codigoDeAcesso = 0;
 while (nivelDeAcesso !=1 || nivelDeAcesso!=2 || nivelDeAcesso !=3 || nivelDeAcesso !=4 || nivelDeAcesso !=5)
@@ -109,7 +109,7 @@ Console.WriteLine(descriçãoDoProduto);
 */
 
 /*
-//Teste da classe ConversaoSkuDescricaoProduto  ###OK###
+//Teste da classe CorrespondeciaNivelCargo  ###OK###
 Console.WriteLine("Teste da classe CorrespondeciaNivelCargo.................................");
 
 int nivelDoFuncionario = 200;
@@ -122,7 +122,7 @@ var descricaoDeCargo = correspondeciaNivelCargo.ObterNivel(nivelDoFuncionario);
 Console.WriteLine($"Descrição de cargo: {nomeDoFuncionario}, {descricaoDeCargo}");
 */
 
-
+/*
 //Teste da classe NomeProjetoVariasLinguagens  ###OK###
 Console.WriteLine("Teste da classe NomeProjetoVariasLinguagens.................................");
 Console.WriteLine();
@@ -151,4 +151,17 @@ Console.WriteLine($@"{nomeProjeto.ProjetoUE(Linguagem.Italiano)}
 Console.WriteLine($@"{nomeProjeto.ProjetoUE(Linguagem.Espanhol)}
         c:\Exercise\{nomeProjeto.ProjetoIngles()}\es-ES\data.txt
         ");
+*/
+
+/*
+//Teste da classe DesafioFizzBuzz  ###Pendente###
+Console.WriteLine("Teste da classe DesafioFizzBuzz.................................");
+Console.WriteLine();
+*/
+
+/*
+//Teste da classe JogoRPG  ###Pendente###
+Console.WriteLine("Teste da classe JogoRPG.................................");
+Console.WriteLine();
+*/
 
