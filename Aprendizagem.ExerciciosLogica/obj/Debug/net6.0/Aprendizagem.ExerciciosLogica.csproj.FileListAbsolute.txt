@@ -13,3 +13,6 @@ C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.pdb
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.genruntimeconfig.cache
 C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\refint\Aprendizagem.ExerciciosLogica.dll
+C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.Recursos.RecursoPtBr.resources
+C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.csproj.GenerateResource.cache
+C:\projetos\Apredizagem\Aprendizagem\Aprendizagem.ExerciciosLogica\obj\Debug\net6.0\Aprendizagem.ExerciciosLogica.Recursos.RecursoZuAf.resources

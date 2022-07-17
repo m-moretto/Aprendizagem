@@ -13,4 +13,28 @@
     <PackageReference Include="System.Text.Encoding.Extensions" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Recursos\RecursoPtBr.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RecursoPtBr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Recursos\RecursoZuAf.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RecursoZuAf.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Recursos\RecursoPtBr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursoPtBr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Recursos\RecursoZuAf.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursoZuAf.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

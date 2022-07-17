@@ -10,7 +10,9 @@ namespace Aprendizagem.ExerciciosLogica.Enums
     {
         Frances,
         Italiano,
-        Espanhol
+        Espanhol,
+        Portugues,
+        Zulu
 
     }
 }

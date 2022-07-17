@@ -151,6 +151,14 @@ Console.WriteLine($@"{nomeProjeto.ProjetoUE(Linguagem.Italiano)}
 Console.WriteLine($@"{nomeProjeto.ProjetoUE(Linguagem.Espanhol)}
         c:\Exercise\{nomeProjeto.ProjetoIngles()}\es-ES\data.txt
         ");
+
+Console.WriteLine($@"{nomeProjeto.ProjetoOutrasLinguas(Linguagem.Portugues)}
+        c:\Exercise\{nomeProjeto.ProjetoIngles()}\pt-BR\data.txt
+        ");
+
+Console.WriteLine($@"{nomeProjeto.ProjetoOutrasLinguas(Linguagem.Zulu)}
+        c:\Exercise\{nomeProjeto.ProjetoIngles()}\zu-AF\data.txt
+        ");
 */
 
 /*

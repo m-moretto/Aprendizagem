@@ -1,4 +1,5 @@
 ﻿using Aprendizagem.ExerciciosLogica.Enums;
+using Aprendizagem.ExerciciosLogica.Recursos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,11 +38,25 @@ namespace Aprendizagem.ExerciciosLogica
                     return "Ver la salida en español:";
 
                 default:
-                    return "Veja a saída em português:";
+                    return "View English output:";
             }
         }
-     }
+        public string ProjetoOutrasLinguas(Linguagem linguagem)
+        {
+            switch (linguagem)
+            {
+                case Linguagem.Portugues:
+                    return RecursoPtBr.ProjectNameMessage;
 
+                case Linguagem.Zulu:
+                    return RecursoZuAf.ProjectNameMessage;
+
+                default:
+                    return "View English output:";
+            }
+        }
+
+     }
 
 }
 
