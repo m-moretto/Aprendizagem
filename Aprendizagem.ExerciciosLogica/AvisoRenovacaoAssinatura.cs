@@ -6,36 +6,46 @@ using System.Threading.Tasks;
 
 namespace Aprendizagem.ExerciciosLogica
 {
-    internal class AvisoRenovacaoAssinatura
+    public class SubscriptionRenewalNotice
     {
-        /*TODO
-    if(daysUntilExpiration == 0)
+        public string SubscriptionExpirationMessage(int daysUntilExpiration)
         {
-        Console.WriteLine("Your subscription has expired.");
+            if (daysUntilExpiration == 0)
+            {
+                return "Your subscription has expired.";
+            }
+            else if (daysUntilExpiration <= 1)
+            {
+                return @"Your subscription expires within a day! Renew now and save 20%!";
+            }
+            else if (daysUntilExpiration <= 5)
+            {
+                return $@"Your subscription expires in {daysUntilExpiration} days. Renew now and save {SubscriptionExpirationDiscount(daysUntilExpiration)}%!";
+            }
+            else if (daysUntilExpiration <= 10)
+            {
+                return "Your subscription will expire soon. Renew now!";
+            }
+            else
+            {
+                return "Your subscription up to date!";
+            }
         }
 
-        else if(daysUntilExpiration <= 1)
+        public int SubscriptionExpirationDiscount (int daysUntilExpiration)
+        {
+            if (daysUntilExpiration <= 1 && daysUntilExpiration > 0)
             {
-            Console.WriteLine(@"Your subscription expires within a day! Renew now and save 20%!");
-            discountPercentage = 20;
+                    return 20;
             }
-
-        else if (daysUntilExpiration <= 5)
+            else if(daysUntilExpiration <= 5 && daysUntilExpiration > 1)
             {
-            Console.WriteLine($@"Your subscription expires in {daysUntilExpiration} days. Renew now and save 10%!");
-            discountPercentage = 10;
+                    return 10;
             }
-    
-        else if (daysUntilExpiration <= 10)
-            {
-            Console.WriteLine("Your subscription will expire soon. Renew now!");
-            }
-
-
-
-
-
-        */
+            else { return 0; }
+        }
+    }
+  
 
 
 
@@ -50,6 +60,4 @@ namespace Aprendizagem.ExerciciosLogica
         Console.WriteLine($"Valor venda: {saleAmount}");
         Console.WriteLine($"Discount: {discount}");
         */
-    }
-
 }

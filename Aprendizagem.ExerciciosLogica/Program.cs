@@ -44,12 +44,15 @@ for (int i = 0; i < numeroDeDados; i++)
 
 
 /*
-//Teste da classe AvisoRenovacaoAssinatura  ###Pendente###TODO
-Console.WriteLine("Teste da classe AvisoRenovacaoAssinatura....................................");
-Random random = new Random();
-int daysUntilExpiration = random.Next(12);
-int discountPercentage = 0;
-var avisoRenovacaoAssinatura = new AvisoRenovacaoAssinatura(daysUntilExpiration);
+//Teste da Classe AvisoRenovacaoAssinatura  ###OK###
+    Console.WriteLine("Teste da classe AvisoRenovacaoAssinatura....................................");
+
+    Random random = new Random();
+    int daysUntilExpiration = random.Next(12);
+
+    var expirationNotice = new SubscriptionRenewalNotice();
+
+    Console.WriteLine(expirationNotice.SubscriptionExpirationMessage(daysUntilExpiration));
 */
 
 
